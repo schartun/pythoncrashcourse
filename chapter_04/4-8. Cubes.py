@@ -3,4 +3,12 @@
 #is, the cube of each integer from 1 through 10), and use a for loop to print out
 #the value of each cube.
 
-cube = number**3
+
+cubes = []
+for number in range(1,10):
+    cube = number**3
+    print(cube)
+    cubes.append(cube)
+print(cubes)
+
+
